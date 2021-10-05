@@ -1,19 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+ 
+ <!--Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 
-    <!-- Bootstrap icons-->
- <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
- <!-- Core theme CSS (includes Bootstrap)-->
- <link href="css/styles.css" rel="stylesheet" />
-
-    <title>Document</title>
+ <!--Googlefonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  
+    <link href="style.css" rel="stylesheet">
 
 </head>
+
 <body>
-    
+
+  <!--Meny--> 
+  <header>
+    <nav class="navbar" id="navbarjs">
+      <img class="imgc justify-content-center" src="img/portfoliologowhitesqare-03.png" id="logo">
+
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <a href="#portfolio" class="nav-link">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a href="#personlig" class="nav-link">Om mig</a>
+        </li>
+        <li class="nav-item">
+          <a href="mailto:westerdahl.moa@gmail.com?subject=Mail till Moa Westerdahl" class="nav-link">Kontakt</a>
+        </li>
+      </ul>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+
+  <!-- Snigelmorgon-->
+  <section class="py-5" id="Snigelmorgon">
+    <div class="container px-5 my-5">
+      <div class="text-center mb-5">
+        <h1 class="fw-bolder">Snigelmorgon</h1>
+        <p class="lead fw-normal text-muted mb-0">Ett spel för att få morgonen att flyta på smidigt</p>
+      </div>
+      <div class="row gx-5">
+        <div class="col-lg-6">
+          <div class="position-relative mb-5">
+            <img class="img-fluid rounded-3 mb-3" src="img/alarm.jpg" alt="..." />
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="position-relative mb-5">
+            <h2> Bakgrund </h2>
+                <p> Aenean posuere risus sit amet efficitur maximus. Nam bibendum magna ex, euismod 
+                    vehicula leo venenatis quis. Ut convallis ante nec diam sodales, sed lacinia tortor sodales. 
+                    Pellentesque rhoncus sodales augue et ultricies. Nullam vitae congue libero, non sagittis ante. 
+                    Pellentesque nisi est, dapibus mattis leo eu, porttitor sollicitudin diam. Duis sed tellus at sem 
+                    pretium vestibulum vitae at lectus. Donec malesuada in turpis sed pharetra. Maecenas ante ante, ultricies 
+                    ut dignissim vel, feugiat vitae turpis</p>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="position-relative mb-5 mb-lg-0">
+            <img class="img-fluid rounded-3 mb-3" src="img/kelly-sikkema-gcHFXsdcmJE-unsplash.jpg" alt="..." />
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="position-relative">
+            <h2> Processen </h2>
+            <p> Text om projektet Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Aenean posuere risus sit amet efficitur maximus. Nam bibendum magna ex, euismod 
+                vehicula leo venenatis quis. Ut convallis ante nec diam sodales, sed lacinia tortor sodales. 
+                Pellentesque rhoncus sodales augue et ultricies. Nullam vitae congue libero, non sagittis ante. 
+                Pellentesque nisi est, dapibus mattis leo eu, porttitor sollicitudin diam. Duis sed tellus at sem 
+                pretium vestibulum vitae at lectus. Donec malesuada in turpis sed pharetra. Maecenas ante ante, ultricies 
+                ut dignissim vel, feugiat vitae turpis.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-center text-white footer-expand-lg">
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      <a href="mailto:westerdahl.moa@gmail.com?subject=Mail till Moa Westerdahl">Moa Westerdahl -
+        westerdahl.moa@gmail.com</a>
+    </div>
+  </footer>
+  <!-- Footer -->
+
+
+  <script src="main.js"></script>
 </body>
+
 </html>

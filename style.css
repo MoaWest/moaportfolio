@@ -89,6 +89,12 @@ li {
    display: flex;
    justify-content: space-between;
    padding: 0 24px;
+   position: fixed;
+   background-color: #262626;
+   z-index: 1000;
+   top: 0;
+   left: 0;
+   right: 0;
  }
 
  .nav-menu {
