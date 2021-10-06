@@ -76,6 +76,10 @@ header {
     
     }
 
+    .skugga{
+      box-shadow: 10px 10px 15px rgb(190, 188, 188);
+   }
+
     .border{
       border-style:solid;
       border-color: black;
